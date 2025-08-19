@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.Poppins-fonts{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+/* Shared style */
+main{
+max-width: 1000px;
+margin: 0 auto;
+}
+/* navber styles */
+header, .banner{
+    width: 1200px;
+    margin: 0 auto;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;   
+}
+h1{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+ul{
+    display: flex;
+    justify-content: flex-end;
+    
+    gap: 20px;
+}
+ul>li{
+    list-style: none;
+    text-decoration: none;
+    gap: 10px;
+}
+ul>li>a{
+    text-decoration: none;
+    
+    font-weight: 500;
+    font-size: 1rem;
+    transition: color .3s;
+}
+ul>li a:hover{
+    color: #E02C6D;
+}
+/* banner sction styles */
+
+.banner{
+    display: flex;
+}
+.banner-text > h1{
+       font-size: 3.25rem;
+       font-weight: bold;
+}
+.banner-text p{
+    color: #3A3A3A;
+}
+.banner-text button{
+    background-color: #E02C6D;
+    border: none;
+    border-radius: 41px;
+    color: white;
+    width: 12.25rem;
+    height: 2.9rem;
+    font-weight: bold;
+    transition: background .3s ease;
+}
+.banner-text button:hover{
+    background-color: white;
+    color: #E02C6D;
+    border: 1px solid #E02C6D;
+    transform: scale(1.05);
+}
+.banner-img{
+  background: url("../images/Circle\ design.svg");
+}
+
+/* logo section styles */
+.logo-container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 6.5rem;
+}
