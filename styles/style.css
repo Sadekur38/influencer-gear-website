@@ -78,10 +78,129 @@ ul>li a:hover{
 .banner-img{
   background: url("../images/Circle\ design.svg");
 }
+.btn-primary{
+    background-color: #E02C6D;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color .3s ease;
+}
 
 /* logo section styles */
 .logo-container{
     display: flex;
     justify-content: space-around;
     margin-top: 6.5rem;
+}
+
+/* cards section styles */
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(3,3fr);
+    gap: 20px;
+}
+.Products{
+    margin-top: 100px;
+}
+.Products h1{
+    text-align: center;
+}
+.card{
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px;
+    width: 300px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition:all  .3s ease-in-out;
+}
+.card:hover{
+    transform: scale(1.05) translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+.card img{
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 8px;
+    margin-bottom: hidden;
+}
+.card-title{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 10px 0;
+    color: #333;
+}
+.card-price{
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #f90;
+    margin-bottom: 10px;
+}
+.card-description{
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 20px;
+    margin-top: 6px;
+}
+.card-btn{
+    background-color: #E02C6D;
+    color: white;
+    font-size: 0.8rem;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor:pointer;
+    margin-top: 20px;
+    text-transform: uppercase;
+    transition: background-color .3s ease;
+}
+.card-btn:hover{
+    background-color: white;
+    color: #420bd9;
+    border: 1px solid #E02C6D;
+}
+
+/* Join-now styles  */
+.join-now{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border-radius: 8px;
+    gap: 20px;
+    margin-top: 80px;
+    text-align: left;
+    align-items: center;
+
+}
+.join-now-text{
+    padding-bottom: 20px;
+}
+.join-now-text h1{
+    color:#0f0c38 ;
+    font-size: 1.8rem;
+}
+.join-now-text p{
+    color: #6C6C6C;
+}
+.btn-join{
+    background-color: #E02C6D;
+    color: white;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    font-size: 1.2rem;
+    font-weight: bold;
+    transition: background .3s ease;
+}
+.btn-join:hover{
+    background-color: white;
+    color: #E02C6D;
+    border: 1px solid #E02C6D;
+    transform: scale(1.05);
 }
